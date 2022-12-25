@@ -26,7 +26,7 @@ function App() {
   return (
     <>
     <Navbar title = "TextUtils" mode = {mode} textColor = {textColor} toggleMode = {toggleMode}/>
-    <Alert alert = "this is alert"/>
+    <Alert alert = "hi, I am an alert"/>
     <div className = "container my-3">
     <TextForm heading = "Enter your text to analyze " mode = {mode} textColor = {textColor}  />
      {/* <About/> */}
